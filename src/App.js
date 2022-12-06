@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Verev from './Header/Verev';
+import Index from './Main';
+import Sec1 from './Main/Sec1/Sec1';
+// import index from './Main';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <Verev/>
+      <Index/>
+      {/* <Sec1/> */}
     </div>
   );
 }
